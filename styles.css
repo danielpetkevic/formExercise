@@ -1,0 +1,103 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    height: 100vh;
+    background-image: url('kevin-hernandez-reyes-S1nCSK3O6e0-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    justify-content: space-between;
+}
+.logo-container{
+    margin-top: 30vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    border-radius: 32px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.refference{
+    color: white;
+    align-self: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.logo{
+    width: 100px;
+    border-radius: 32px;
+}
+.logo-text{
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    font-family: Norse;
+}
+.right-side{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: left;
+    
+    gap: 20px;
+}
+.right-side>h3, fieldset>h2{
+    margin-left: 32px;
+    margin-right: 32px;
+}
+input, label {
+    display:block;
+}
+label{
+    margin-bottom: 4px;
+    font-size: 0.8em;
+}
+.two-columns{
+    display:flex;
+    flex-direction: row;
+    gap: 64px;
+    margin-bottom: 16px;
+}
+button{
+    margin-left: 32px;
+    margin-top: 24px;
+    width:240px;
+    height: 48px;
+    border-radius: 16px;
+    border: none;
+    background-color: crimson;
+}
+input{
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    height: 24px;
+    padding-left: 8px;
+}
+.button-text, a{
+    color: white;
+    font-weight: bold;
+    font-family: Montserrat, sans-serif;
+}
+input:invalid {
+    border: 2px solid red;
+}
+input:focus{
+    border:darkblue 1px solid;
+    outline: none;
+    box-shadow: 0 0 15px #ccc;
+}
+fieldset, button{
+    box-shadow: 0 0 15px #ccc;
+}
